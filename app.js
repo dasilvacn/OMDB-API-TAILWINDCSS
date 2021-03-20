@@ -2,7 +2,7 @@
 
 var app = {
     selector: {
-        endpoint: "http://www.omdbapi.com/?apikey=f160c372&",
+        endpoint: "http://www.omdbapi.com/?apikey=[YOUR_KEY]&",
         lastSearchKey: 'last-search',
         searchInput: document.querySelector('[search-input]'),
         searchButton: document.querySelector('[search-button]'),
